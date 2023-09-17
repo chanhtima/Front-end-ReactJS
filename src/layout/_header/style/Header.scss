@@ -1,0 +1,13 @@
+.la-header{
+    @apply bg-blue-300 shadow-sm mb-1;
+    .navbar{
+        @apply container;
+        
+    }
+    &-logo{
+        @apply text-16 sm:text-xl text-white;
+    }
+    &-user{
+        @apply shadow-lg rounded-full;
+    }
+}
